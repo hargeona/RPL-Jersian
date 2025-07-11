@@ -8,14 +8,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 mb-50">
-                <h2 class="intro-heading">about our shop</h2>
+                <h2 class="intro-heading">Bandung, Indonesia</h2>
                 <p>{{$about->deskripsi}}</p>
             </div>
             <div class="col-sm-3 col-sm-offset-1">
-                <span class="result">10</span>
-                <p>Years on Global Market.</p>
-                <span class="result">45</span>
-                <p>Partners are Working With Us.</p>
+                <p>Hanya Menjual Item Original            
+                    </p>
             </div>
         </div>
         <hr class="mb-0">
@@ -33,15 +31,6 @@
 
 <!-- Testimonials -->
 <section class="section-wrap testimonials">
-    <div class="container">
-
-        <div class="row heading-row mb-20">
-            <div class="col-md-6 col-md-offset-3 text-center">
-                <span class="subheading">Hot Customers</span>
-                <h2 class="heading bottom-line">Happy Clients</h2>
-            </div>
-        </div>
-
         <div id="owl-testimonials" class="owl-carousel owl-theme owl-dark-dots text-center">
             @foreach ($testimonies as $testimony)
             <div class="item">
@@ -52,7 +41,5 @@
             </div>
             @endforeach
         </div>
-    </div>
-
 </section> <!-- end testimonials -->
 @endsection

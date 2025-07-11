@@ -148,34 +148,20 @@
 
             <aside class="sidebar col-sm-3">
                 <div class="contact-item">
-                    <h6>Categories</h6>
-                    <ul class="list-dividers">
-                        <li>
-                            <a href="#">Delivery</a>
-                        </li>
-                        <li>
-                            <a href="#">Payment</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                        <li>
-                            <a href="#">Common questions</a>
-                        </li>
-                    </ul>
+            
                 </div>
 
                 <div class="contact-item">
                     <h6>Information</h6>
                     <ul>
                         <li>
-                            <i class="fa fa-envelope"></i><a href="mailto:theme@support.com">theme@support.com</a>
+                            <i class="fa fa-envelope"></i><a href="mailto:theme@support.com">Jersian@support.com</a>
                         </li>
                         <li>
-                            <i class="fa fa-phone"></i><span>+1 (800) 888 5260 52 63</span>
+                            <i class="fa fa-phone"></i><span>08123456789</span>
                         </li>
                         <li>
-                            <i class="fa fa-skype"></i><span>zennashop</span>
+                            <i class="fa fa-skype"></i><span>Jersian.co</span>
                         </li>
                     </ul>
                 </div>

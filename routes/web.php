@@ -20,7 +20,7 @@ Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
 Route::get('logout', [AuthController::class, 'logout']);
 
-Route::get('login_member', [AuthController::class, 'login_member']);
+Route::get('login_member', [AuthController::class, 'login_member'])->name('login_member');
 Route::post('login_member', [AuthController::class, 'login_member_action']);
 Route::get('logout_member', [AuthController::class, 'logout_member']);
 
@@ -54,7 +54,7 @@ Route::get('/dashboard', [DashboardController::class, 'index']);
 // home routes
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/products/{category}', [HomeController::class, 'products']);
-Route::get('/product/{id}', [HomeController::class, 'product']);
+Route::get('/product/{product}', [ProductController::class, 'show'])->middleware('auth:webmember');
 Route::get('/cart', [HomeController::class, 'cart']);
 Route::get('/checkout', [HomeController::class, 'checkout']);
 Route::get('/orders', [HomeController::class, 'orders']);

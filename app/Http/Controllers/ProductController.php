@@ -103,13 +103,13 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $Product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $Product)
-    {
-        return response()->json([
-            'success' => true,
-            'data' => $Product
-        ]);
-    }
+    public function show(Product $product)
+{
+    return view('home.product', [
+        'product' => $product,
+        'latest_products' => Product::latest()->take(6)->get()
+    ]);
+}
 
     /**
      * Show the form for editing the specified resource.

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/front/css/style.css" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/front/img/favicon.ico">
+    <link rel="shortcut icon" href="/front/img/logo.png">
     <link rel="apple-touch-icon" href="/front/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/front/img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/front/img/apple-touch-icon-114x114.png">
@@ -111,7 +111,7 @@
                                         @endphp
 
                                         <li class="dropdown">
-                                            <a href="#">Shop</a>
+                                            <a href="/products/{id}">Shop</a>
                                             <i class="fa fa-angle-down dropdown-trigger"></i>
                                             <ul class="dropdown-menu megamenu-wide">
                                                 <li>
@@ -221,92 +221,20 @@
 
             <!-- Footer Type-1 -->
             <footer class="footer footer-type-1">
-                <div class="container">
-                    <div class="footer-widgets">
-                        <div class="row">
-
-                            <div class="col-md-3 col-sm-12 col-xs-12">
-                                <div class="widget footer-about-us">
-                                    <img src="/front/img/logo_dark.png" alt="" class="logo">
-                                    <p class="mb-30">Zenna Shop is a very slick and clean eCommerce template.</p>
-                                    <div class="footer-socials">
-                                        <div class="social-icons nobase">
-                                            <a href="/front/#"><i class="fa fa-twitter"></i></a>
-                                            <a href="/front/#"><i class="fa fa-facebook"></i></a>
-                                            <a href="/front/#"><i class="fa fa-google-plus"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- end about us -->
-
-                            <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-12">
-                                <div class="widget footer-links">
-                                    <h5 class="widget-title bottom-line left-align grey">Information</h5>
-                                    <ul class="list-no-dividers">
-                                        <li><a href="/front/#">Our stores</a></li>
-                                        <li><a href="/front/#">About us</a></li>
-                                        <li><a href="/front/#">Business with us</a></li>
-                                        <li><a href="/front/#">Delivery information</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                <div class="widget footer-links">
-                                    <h5 class="widget-title bottom-line left-align grey">Account</h5>
-                                    <ul class="list-no-dividers">
-                                        <li><a href="/front/#">My account</a></li>
-                                        <li><a href="/front/#">Wishlist</a></li>
-                                        <li><a href="/front/#">Order history</a></li>
-                                        <li><a href="/front/#">Specials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                <div class="widget footer-links">
-                                    <h5 class="widget-title bottom-line left-align grey">Useful Links</h5>
-                                    <ul class="list-no-dividers">
-                                        <li><a href="/front/#">Shipping Policy</a></li>
-                                        <li><a href="/front/#">Stores</a></li>
-                                        <li><a href="/front/#">Returns</a></li>
-                                        <li><a href="/front/#">Terms &amp; Conditions</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                <div class="widget footer-links">
-                                    <h5 class="widget-title bottom-line left-align grey">Service</h5>
-                                    <ul class="list-no-dividers">
-                                        <li><a href="/front/#">Support</a></li>
-                                        <li><a href="/front/#">Warranty</a></li>
-                                        <li><a href="/front/#">FAQ</a></li>
-                                        <li><a href="/front/#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div> <!-- end container -->
-
                 <div class="bottom-footer">
                     <div class="container">
                         <div class="row">
 
                             <div class="col-sm-6 copyright sm-text-center">
                                 <span>
-                                    &copy; 2017 Zenna Theme, Made by <a href="http://deothemes.com">DeoThemes</a>
+                                    &copy; 2025 Jersian</a>
                                 </span>
                             </div>
 
                             <div class="col-sm-6 col-xs-12 footer-payment-systems text-right sm-text-center mt-sml-10">
-                                <i class="fa fa-cc-paypal"></i>
-                                <i class="fa fa-cc-visa"></i>
-                                <i class="fa fa-cc-mastercard"></i>
-                                <i class="fa fa-cc-discover"></i>
-                                <i class="fa fa-cc-amex"></i>
+                                <a style="margin: 0 10px;"><i class="fa fa-twitter"></i></a>
+                                <a style="margin: 0 10px;"><i class="fa fa-facebook"></i></a>
+                                <a style="margin: 0 10px;"><i class="fa fa-google-plus"></i></a>
                             </div>
 
                         </div>

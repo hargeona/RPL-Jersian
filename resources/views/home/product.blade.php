@@ -125,7 +125,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="btn btn-dark btn-lg add-to-cart"><span>Add to Cart</span></a>
+                    <a href="/add_to_cart" class="btn btn-dark btn-lg add-to-cart"><span>Add to Cart</span></a>
 
                     <a href="#" class="product-add-to-wishlist"><i class="fa fa-heart"></i></a>
                 </div>
@@ -257,15 +257,16 @@
 @endsection
 
 
-@push('js')
-<script>
+@push('js')<script>
     $(function(){
         $('.add-to-cart').click(function(e){
+            e.preventDefault(); // tambahin ini!
+
             id_member = {{Auth::guard('webmember')->user()->id}}
             id_barang = {{$product->id}}
             jumlah = $('.jumlah').val()
-            size = $('.size').val()
-            color = $('.color').val()
+            size = $('.size:checked').val()
+            color = $('.color:checked').val()
             total = {{$product->harga}}*jumlah
             is_checkout = 0
 
@@ -290,6 +291,5 @@
             });
         })
     })
-
 </script>
 @endpush

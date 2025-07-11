@@ -63,11 +63,11 @@
                             <img src="/uploads/{{$product->gambar}}" alt="">
                         </a>
                         <div class="hover-overlay">
-                            <div class="product-actions">
+                            {{-- <div class="product-actions">
                                 <a href="/front/#" class="product-add-to-wishlist">
                                     <i class="fa fa-heart"></i>
                                 </a>
-                            </div>
+                            </div> --}}
                             <div class="product-details valign">
                                 <span class="category">
                                     <a
@@ -103,7 +103,7 @@
 
         <div class="row heading-row mb-20">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <h2 class="heading white bottom-line">Happy Clients</h2>
+                <h2 class="heading white bottom-line">Jersian Biar Keren</h2>
             </div>
         </div>
 
